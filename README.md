@@ -7,6 +7,7 @@ writes that payload verbatim to a fixed destination address, verifies it with
 CRC32, and returns cleanly to U-Boot.
 
 This repo also contains:
+* `loader.ld`: Linker script controlling load address and section layout.
 * `chdr-sender.py`: Tiny python tool to send an image over the serial connection to the loader.
 * `custom-repacker.py`: A script to pack an image with the custom CHDR header. 
 
