@@ -6,6 +6,10 @@ console waiting for a payload framed in a small custom protocol ("CHDR"),
 writes that payload verbatim to a fixed destination address, verifies it with
 CRC32, and returns cleanly to U-Boot.
 
+This repo also contains:
+* `chdr-sender.py`: Tiny python tool to send an image over the serial connection to the loader.
+* `custom-repacker.py`: A script to pack an image with the custom CHDR header. 
+
 ## How it works
 
 ### Memory layout
